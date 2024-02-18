@@ -11,17 +11,17 @@ Diffusion Model
 
 2. History
    - Auto Encoder
-     = [Idea] Manifold Learning / Reconstruction Loss
-     = [Usage] Dimension Reduction / Anomaly Detection 
-     = [Limit] Not Generative Model
+   -- [Idea] Manifold Learning / Reconstruction Loss
+   -- [Usage] Dimension Reduction / Anomaly Detection 
+   -- [Limit] Not Generative Model
      
    - Variation Auto Encoder
-     = [Idea] Variational Inference (True Posterior <-> Approximated Posterior by Encoder) / Generation from Latent Vector / Reparameterization Trick
-     = [Usage] Generation / Data Interpretation through Latent Space
-     = [Limit] Low-fidelity of Generated Instance (Inter-Class Overlap on Latent Space & Pixel-based Loss)
+   -- [Idea] Variational Inference (True Posterior <-> Approximated Posterior by Encoder) / Generation from Latent Vector / Reparameterization Trick
+   -- [Usage] Generation / Data Interpretation through Latent Space
+   -- [Limit] Low-fidelity of Generated Instance (Inter-Class Overlap on Latent Space & Pixel-based Loss)
      
    - Generative Adversarial Network
-     = [Idea] 
+   -- [Idea] 
     
 3. Concept
    - Forward Process
