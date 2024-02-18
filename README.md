@@ -10,27 +10,27 @@ Diffusion Model
    - https://ffighting.net/deep-learning-paper-review/diffusion-model/diffusion-model-basic
 
 2. History
-   - Auto Encoder
-   -- [Idea] Manifold Learning / Reconstruction Loss
-   -- [Usage] Dimension Reduction / Anomaly Detection 
-   -- [Limit] Not Generative Model
+   2.1 Auto Encoder
+      - [Idea] Manifold Learning / Reconstruction Loss
+      - [Usage] Dimension Reduction / Anomaly Detection
+      - [Limit] Not Generative Model
      
-   - Variation Auto Encoder
-   -- [Idea] Variational Inference (True Posterior <-> Approximated Posterior by Encoder) / Generation from Latent Vector / Reparameterization Trick
-   -- [Usage] Generation / Data Interpretation through Latent Space
-   -- [Limit] Low-fidelity of Generated Instance (Inter-Class Overlap on Latent Space & Pixel-based Loss)
+   2.2 Variation Auto Encoder
+      - [Idea] Variational Inference (True Posterior <-> Approximated Posterior by Encoder) / Generation from Latent Vector / Reparameterization Trick
+      - [Usage] Generation / Data Interpretation through Latent Space
+      - [Limit] Low-fidelity of Generated Instance (Inter-Class Overlap on Latent Space & Pixel-based Loss)
      
-   - Generative Adversarial Network
-   -- [Idea] 
+   2.3 Generative Adversarial Network
+      - [Idea] 
     
-3. Concept
+4. Concept
    - Forward Process
    - Reverse Process
 
-4. Detail
+5. Detail
    - Equation
    - Loss Function
 
-5. Implementation
+6. Implementation
    - U-Net
    - Time Embedding
