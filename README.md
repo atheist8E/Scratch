@@ -30,7 +30,6 @@ Diffusion Model
       - [Usage] Generation / Text
       - [Limit] 
    
-    
 2. TBD
    - 
 
